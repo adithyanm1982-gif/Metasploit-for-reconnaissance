@@ -24,18 +24,25 @@ Open terminal and try execute some kali linux commands
 
 1. Find out the ip address of the attackers system
 #### OUTPUT:
+<img width="993" height="432" alt="image" src="https://github.com/user-attachments/assets/675e20cf-5dc2-417a-95b2-5dcd0cff3212" />
+
 
 
 2. Invoke msfconsole:
 #### OUTPUT:
+<img width="857" height="655" alt="image" src="https://github.com/user-attachments/assets/a1fe9a9d-b0c0-4939-910d-408dc8f30b98" />
 
 
 3. Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
+#### OUTPUT:
+<img width="802" height="612" alt="image" src="https://github.com/user-attachments/assets/7131e791-c755-40d4-b852-826e9f30adbc" />
+
 
 Port Scanning:
 Following command is executed for scanning the systems on our local area network with a TCP scan (-sT) looking for open ports between 1 and 1000 (-p1-1000).
 msf >  nmap -sT 192.168.1810/24 -p1-1000  (Replace with appropriate IP Address)
 #### OUTPUT:
+<img width="1072" height="282" alt="image" src="https://github.com/user-attachments/assets/e27a0ba1-ab6b-48b4-9f1c-b724f372b292" />
 
 
 4. use the db-nmap command to scan and save the results into Metasploit's postgresql attached database. In that way, you can use those results in the exploitation stage later.
@@ -43,7 +50,7 @@ msf >  nmap -sT 192.168.1810/24 -p1-1000  (Replace with appropriate IP Address)
 scan the targets with the command db_nmap as follows.
 msf > db_nmap 192.168.181.0/24
 #### OUTPUT:
-
+<img width="819" height="497" alt="image" src="https://github.com/user-attachments/assets/946ae235-26b6-4561-a1ce-bc528f5d053c" />
 
 
 5. Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to Metasploit's auxiliary modules and list all the scanner modules.
@@ -56,6 +63,7 @@ kali > ls -l
 6. Search is a powerful command in Metasploit that you can use to find what you want to locate. 
 msf >search name:Microsoft type:exploit
 #### OUTPUT:
+
 
 
 
