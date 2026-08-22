@@ -50,14 +50,15 @@ msf >  nmap -sT 192.168.1810/24 -p1-1000  (Replace with appropriate IP Address)
 scan the targets with the command db_nmap as follows.
 msf > db_nmap 192.168.181.0/24
 #### OUTPUT:
-<img width="819" height="497" alt="image" src="https://github.com/user-attachments/assets/946ae235-26b6-4561-a1ce-bc528f5d053c" />
+
+
 
 
 5. Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to Metasploit's auxiliary modules and list all the scanner modules.
 cd /usr/share /metasploit-framework/modules/auxiliary
 kali > ls -l
 #### OUTPUT:
-
+<img width="819" height="497" alt="image" src="https://github.com/user-attachments/assets/946ae235-26b6-4561-a1ce-bc528f5d053c" />
 
 
 6. Search is a powerful command in Metasploit that you can use to find what you want to locate. 
