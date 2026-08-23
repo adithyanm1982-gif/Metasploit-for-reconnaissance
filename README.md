@@ -77,11 +77,13 @@ msfdb init
 8. Find the IP address of the Metasploitable machine first. Then, use the db_nmap command in msfconsole with Nmap flags to scan the MySQL database at 3306 port.
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
 #### OUTPUT:
+<img width="1800" height="762" alt="image" src="https://github.com/user-attachments/assets/edb91da9-1044-4fc5-835b-0ecd185828d4" />
 
 
 9. Use the search option to look for an auxiliary module to scan and enumerate the MySQL database.
 search type:auxiliary mysql
 #### OUTPUT:
+<img width="968" height="642" alt="image" src="https://github.com/user-attachments/assets/e1e34305-777d-4321-b7c0-95a541314c41" />
 
 
 10. use the auxiliary/scanner/mysql/mysql_version module by typing the module name or associated number to scan MySQL version details.
@@ -106,10 +108,6 @@ set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
 #### OUTPUT:
-
-
-
-
 
 
 ## RESULT:
