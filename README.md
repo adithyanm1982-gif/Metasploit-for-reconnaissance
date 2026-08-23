@@ -96,7 +96,8 @@ use auxiliary/scanner/mysql/mysql_version
 
 11. Use the set rhosts command to set the parameter and run the module, as follows:
 #### OUTPUT:
-<img width="1148" height="292" alt="image" src="https://github.com/user-attachments/assets/2b9d11fe-36f2-4f98-897e-ae7f24b60014" />
+<img width="1149" height="131" alt="Screenshot 2026-08-23 133417" src="https://github.com/user-attachments/assets/42ad7c50-3ad5-47cc-9d85-a56d722dfb46" />
+
 
 
 12. After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
