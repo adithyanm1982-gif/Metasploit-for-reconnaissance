@@ -91,14 +91,17 @@ use 11
 Or:
 use auxiliary/scanner/mysql/mysql_version
 #### OUTPUT:
+<img width="1177" height="497" alt="image" src="https://github.com/user-attachments/assets/301a9c55-9293-4cc7-93c6-0598da74e088" />
 
 
 11. Use the set rhosts command to set the parameter and run the module, as follows:
 #### OUTPUT:
+<img width="1148" height="292" alt="image" src="https://github.com/user-attachments/assets/2b9d11fe-36f2-4f98-897e-ae7f24b60014" />
 
 
 12. After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
 #### OUTPUT:
+<img width="982" height="620" alt="image" src="https://github.com/user-attachments/assets/c812971a-1638-4323-9397-27e2994bee04" />
 
 
 13. set the PASS_FILE parameter to the wordlist path available inside /usr/share/wordlists:
@@ -108,6 +111,7 @@ set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
 #### OUTPUT:
+<img width="1337" height="367" alt="image" src="https://github.com/user-attachments/assets/a0a52e8a-8de6-41b9-aa42-9582bc4510e8" />
 
 
 ## RESULT:
